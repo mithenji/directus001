@@ -1,0 +1,28 @@
+{
+  "name": "directus001",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "extensions/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:extensions": "npm run build --workspaces",
+    "dev:extensions": "npm run dev --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "directus": "^11.5.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "13.0.3",
+    "typescript": "^5.8.2",
+    "@types/node": "^22.13.10",
+    "vue": "^3.5.13"
+  }
+}
