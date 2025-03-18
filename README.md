@@ -7,7 +7,7 @@
 ```
 directus001/
 ├── extensions/             # 扩展模块目录
-│   ├── welcome-message/    # 模块类型扩展
+│   ├── wellcome-message/   # 模块类型扩展
 │   ├── current-time/       # 端点类型扩展
 │   └── items-create/       # 钩子类型扩展
 ├── node_modules/           # 共享依赖（避免重复）
