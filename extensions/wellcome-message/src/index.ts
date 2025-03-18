@@ -2,8 +2,8 @@ import { defineModule } from '@directus/extensions-sdk';
 import ModuleComponent from './module.vue';
 
 export default defineModule({
-  id: 'wellcome-page',
-  name: 'Wellcome Page',
+  id: 'wellcome-message',
+  name: 'Wellcome Message',
   icon: 'home',
   routes: [
     {
