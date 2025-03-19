@@ -1,4 +1,4 @@
-# Directus 扩展工作区 
+# Directus Demo
 
 这个项目使用 NPM 工作区（Workspaces）来管理多个 Directus 扩展模块，优化了依赖管理和构建流程。
 
