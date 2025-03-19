@@ -10,10 +10,5 @@ export default defineModule({
       path: '',
       component: ModuleComponent
     }
-  ],
-  navItem: {
-    name: '欢迎',
-    icon: 'home',
-    order: -1
-  }
+  ]
 });
